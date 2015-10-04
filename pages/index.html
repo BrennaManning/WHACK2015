@@ -168,59 +168,19 @@
                 </div>
             
 
-                <div class="row">
-                    <div class="col-lg-9">
-                        <div class="pane1 panel-default">
-                            <div class="panel-heading">
-                                <i class="fa fa-bar-chart-o fa-fw"></i> Likes and Post Timing
-                                <div class="pull-right">
-                                    <script src="../Charts/Chart.js"></script>
-                                    <div algin="right">
-                                        <div style="width: 100%">
-                                            <canvas id="canvas2" height="450" width="800"></canvas>
-                                        </div>
-                                    </div>
-                                <script>
-                                var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
-
-                                var barChartData = {
-                                    labels : ["1AM", "2AM", "3AM", "4AM", "5AM", "6AM", "7AM", "8AM","9AM","10AM","11AM","12PM","1PM","2PM", "3PM", "4PM", "5PM", "6PM", "7PM", "8PM", "9PM", "10PM", "11PM", "12AM"],
-                                    datasets : [
-                                        {
-                                            fillColor : "rgba(220,220,220,0.5)",
-                                            strokeColor : "rgba(220,220,220,0.8)",
-                                            highlightFill: "rgba(220,220,220,0.75)",
-                                            highlightStroke: "rgba(220,220,220,1)",
-                                            data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(), randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(), randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(), randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
-                                        }
-                                    ]
-
-                                }
-                                window.onload = function(){
-                                    var ctx = document.getElementById("canvas2").getContext("2d");
-                                    window.myBar = new Chart(ctx).Bar(barChartData, {
-                                        responsive : true
-                                    });
-                                }
-
-                                </script>
-
-
-                                
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
+                 
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="pane1 panel-default">
                             <div class="panel-heading">
-                                <i class="fa fa-bar-chart-o fa-fw"></i> Likes Line Graph
+                                <i class="fa fa-bar-chart-o fa-fw"></i> Average Post Likes For Hour Post Was Created
                                 <div class="pull-right">
+                                    <div>
+                                        <p> </p>
+                                    </div>
                                     <script src="../Charts/Chart.js"></script>
                                     <div style="width: 70%">
-                                        <canvas id="canvas3" height="500" width="1000"></canvas>
+                                        <canvas id="canvas3" height="450" width="1000"></canvas>
                                     </div>
                                 <script>
                                 var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
@@ -235,7 +195,7 @@
                                             pointStrokeColor : "#fff",
                                             pointHighlightFill : "#fff",
                                             pointHighlightStroke : "rgba(220,220,220,1)",
-                                            data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(), randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(), randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(), randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
+                                            data : [20, 15, 0, 0, 2, 3, 18, 30, 50, 60, 32, 11, 40, 70, 30, 40, 80, 90, 50, 40, 60, 42, 31, 17]
                                         }
                             
                                     ]
