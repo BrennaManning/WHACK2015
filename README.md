@@ -2,4 +2,4 @@
 
 Git Repository for Wellesley Hackathon Project 10/3/2015
 
-FBPeakGuru Web app to see when the most of your friends are online. Determine optimal posting times, and see when your friends will see your posts.
+FBPeak is a Web app that allows you to optimize social media performance by analyzing past post reach. Determine what your peak posts were and the time they were posted by media type to predict when and what your next post should be to reach peak exposure in your network. 
